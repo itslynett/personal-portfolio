@@ -1,0 +1,252 @@
+/* Reset & Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center; /* Center navigation horizontally */
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row; /* Arrange list items horizontally */
+    gap: 15px; /* Add spacing between items */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff7a59; /* Highlight link on hover */
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background: linear-gradient(145deg, #d0f4de, #fef9d7, #fdf2e9); /* Soft gradient background */
+    color: #333; /* Darker text color for contrast */
+}
+
+/* General Layout */
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f3ec78, #af4261); /* Bold gradient for the header */
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-container::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    height: 80%;
+    background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="800" height="800" opacity="0.05"%3E%3Ccircle cx="400" cy="400" r="400" fill="%239c88ff"/%3E%3C/svg%3E');
+    opacity: 0.2;
+    background-size: cover;
+    z-index: -1;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    gap: 20px;
+}
+
+.header-text {
+    text-align: left;
+    max-width: 50%;
+}
+
+.header-text p {
+    font-size: 1.2rem;
+    color: #f0f0f0;
+}
+
+.header-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+    color: hsl(0, 0%, 100%);
+}
+
+.header-text h1 span {
+    color: #ffd700; /* Accent color for name */
+}
+
+.header-image img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Navigation */
+nav ul li a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Vertical Slideshow Container */
+.slideshow-vertical {
+    overflow-y: auto;
+}
+
+/* Slide Styles */
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 50px;
+    background: linear-gradient(120deg, #f5f7fa, #c3cfe2); /* Light gradient for section slides */
+}
+
+/* Section Styles */
+#about .about-content,
+#education ul,
+#skills ul {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#education ul li,
+#skills ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 1.1rem;
+}
+
+/* Image Galleries */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Project Slideshow */
+.project-slideshow {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.project-slide {
+    display: none;
+    padding: 20px;
+    background: #ffe7d9; /* Soft peachy background for slides */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-slide.active {
+    display: block;
+}
+
+/* Contact Section */
+#contact {
+    background: linear-gradient(145deg, #b3e5fc, #81d4fa, #0288d1); /* Gradient blue for contact section */
+    color: #ffffff;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: none;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(145deg, #ff8a65, #d84315);
+    color: #ffffff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #bf360c;
+}

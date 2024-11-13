@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="header" class="container">
+            <nav>
+                <img src="images/my name.jpeg" class="logo" width="200" height="100" alt="Logo: Lynett Maina">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education Background</a></li>
+                    <li><a href="#skills">Skill Set</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-container">
+                <div class="header-content">
+                    <div class="header-text">
+                        <p>Cyber Security Analyst and Front-End Developer</p>
+                        <h1>Welcome to my portfolio, I am <span>Lynett Maina</span><br> from Kenya, and I am a tech enthusiast.</h1>
+                    </div>
+                    <div class="header-image">
+                        <img src="images/me.jpeg.jpg" alt="Lynett Maina" width="400" height="400" class="align-right">
+                    </div>
+                </div>
+            </div>
+s            
+    </header>
+
+    <main>
+        <!-- Slideshow Wrapper for Vertical Slides -->
+        <div class="slideshow-vertical">
+            <!-- About Section -->
+            <section id="about" class="slide">
+                <div class="container">
+                    <h1>About Me</h1>
+                    <div class="about-content">
+                        <img src="images/lynett.jpeg.jpg" alt="About Lynett Maina">
+                        <p>I am a dedicated Cyber Security Analyst and Front-End Developer with a passion for creating secure and engaging web experiences. I thrive in fast-paced environments and continuously seek to expand my knowledge in the tech industry.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Education Background Section -->
+            <section id="education" class="slide">
+                <div class="container">
+                    <h1>Education Background</h1>
+                    <ul>
+                        <li>Kindergarten - SunRise Junior Academy</li>
+                        <li>High-school diploma from Moi Girls' School Nairobi</li>
+                        <li>Bachelor of Science in Information Systems and Technology - USIU-Africa, expected graduation September 2027</li>
+                    </ul>
+                </div>
+            </section>
+            <!-- Skill Set Section -->
+            <section id="skills" class="slide">
+                <div class="container">
+                    <h1>Skill Set</h1>
+                    <ul>
+                        <li>Front-End Development: HTML, CSS, JavaScript</li>
+                        <li>Cyber Security: Risk Assessment, Threat Analysis</li>
+                        <li>Athlete: Track</li>
+                        <li>Tools: Git, VS Code</li>
+                    </ul>
+                    <div class="image-gallery">
+                        <img src="images/cybersec.jpg" alt="Cyber Security Analysis">
+                        <img src="images/leader.jpg" alt="Leadership Skills">
+                        <img src="images/mental.jpg" alt="Mental Wellness">
+                    </div>
+                </div>
+            </section>
+            <!-- Projects Section -->
+            <section id="projects" class="slide">
+                <div class="container">
+                    <h1>Projects</h1>
+                    <div class="project-slideshow">
+                        <div class="project-slide">
+                            <h2>Portfolio Website</h2>
+                            <p>A personal website showcasing my projects and skills.</p>
+                        </div>
+                        <div class="project-slide">
+                            <h2>To-Do List</h2>
+                            <p>A functional schedule planner.</p>
+                        </div>
+                        <div class="project-slide">
+                            <h2>Nekta Management System</h2>
+                            <p>A functional system created using Microsoft Excel, Word, and Access.</p>
+                        </div>
+                    </div>
+                    <div class="image-gallery">
+                        <img src="images/nekta management.jpg" alt="Nekta Management System">
+                        <img src="images/todolidt.jpg" alt="To-Do List Project">
+                        <img src="images/portfolio.jpeg" alt="Portfolio Website Project">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="slide">
+            <div class="container">
+                <h1>Contact Me</h1>
+                <p>I would love to hear from you! Feel free to reach out with any questions or project ideas.</p>
+                <form action="#" method="post" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject:</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                </form>
+                <p>Or email me directly at: <a href="mailto:mainalynett42@gmail.com">mainalynett42@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <p>&copy; 2024 Lynett Maina. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
