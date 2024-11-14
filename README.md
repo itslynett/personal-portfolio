@@ -8,11 +8,17 @@ A glimpse of my portfolio homepage
 The website features these main sections:
 
 Home - An introduction with a warm welcome and links to other sections.
+
 About - A quick look into who I am and my tech journey.
+
 Education - My educational history, including my current studies.
+
 Skills - A showcase of my technical and professional skill set.
+
 Projects - Highlights of key projects, complete with images.
+
 Contact - A way to get in touch with me directly.
+
 🚀 Tech Stack
 Front-End Development: HTML, CSS, JavaScript
 Cybersecurity Skills: Risk Assessment, Threat Analysis
