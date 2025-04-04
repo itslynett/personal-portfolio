@@ -25,8 +25,12 @@ You can view the live version of my portfolio here:
 ## 📑 How to View My Resume
 
 You can access my resume by following the link provided in the **Resume & Certifications** section of the portfolio. It's in PDF format, giving you a quick and easy way to download or view it.
+![image](https://github.com/user-attachments/assets/49bbc18c-7878-4835-aed7-c1584a7a95be)
+
 
 ## 📂 Folder Structure
 
 Here's a quick overview of the project folder structure:
+![image](https://github.com/user-attachments/assets/6a57ed74-c685-4a24-bd87-1749973f942c)
+
 
