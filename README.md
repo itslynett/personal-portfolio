@@ -20,7 +20,7 @@ This portfolio also serves as a living document for me to track my growth and le
 
 You can view the live version of my portfolio here:
 
-[Live Demo](https://your-username.github.io/your-repository-name/)
+[Live Demo]https://github.com/itslynett/personal-portfolio.git)
 
 ## 📑 How to View My Resume
 
